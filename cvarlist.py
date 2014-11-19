@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import re
+# condump_stripcolors 1
 # log_file cvarlist
 # cvarlist
 # log_file ""
+# condump_stripcolors 0
 with open('cvarlist.log', 'r') as f:
 	l = 1
 	for line in f.readlines():
